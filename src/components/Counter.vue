@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div>counter: {{counter}}</div>
+    <div class="counter">
+      counter: {{counter}}
+    </div>
     <button @click="counter++">Increment</button>
   </div>
 </template>
